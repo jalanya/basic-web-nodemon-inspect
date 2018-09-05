@@ -1,0 +1,22 @@
+{
+  "name": "basic-web-nodemon-inspect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node_modules/.bin/babel-node src/server",
+    "dev:nodemon": "nodemon --inspect src/app.js"
+  },
+  "keywords": [],
+  "author": "Jose Alanya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.18.3"
+  }
+}
